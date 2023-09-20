@@ -1,0 +1,114 @@
+a {
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  text-decoration: underline;
+}
+html{
+
+  background: linear-gradient(to right, #164b06d8, rgba(201, 201, 201, 0),#6b0303);
+}
+body { 
+
+}
+nav {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display:inline-block;
+  margin: 10px;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-size: 50px ;
+}
+h1 {
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-size: 50px;
+}
+h2 {
+  text-decoration: underline;
+}
+
+section  {
+  width: 50%;
+  height: fit-content;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: auto;
+  display:flex;
+  background: linear-gradient(to right, #b3d6a8d8, rgba(201, 201, 201, 0),#b67777);
+}
+
+.om-oss {
+  height: fit-content;
+  width: 60%;
+}
+
+.stone-image{
+    border: 3px solid black;
+    width: 200px;
+    height: 165px;
+    margin-top: 40px;
+    margin-left:5%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.menu{
+  width: 50%;
+  height: fit-content;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: auto;
+  display:flex;
+  background: linear-gradient(to right, #b3d6a8d8, rgba(201, 201, 201, 0),#b67777);
+}
+.text-1,.text-2,.text-3 {
+margin: auto;
+}
+form {    
+  display: flex;
+}
+
+.booking-section {
+  width: 40%;
+  height: fit-content;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(to right, #b3d6a8d8, rgba(201, 201, 201, 0),#b67777);
+}
+.left-side-reservation{
+  margin-left: 10%;
+  margin-right: 28%;
+}
+.right-side-reservation{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.buttons {
+  display:flex;
+  gap: 32px;
+}
+.hours {
+  width: 10%;
+  height: fit-content;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: auto;
+  background: linear-gradient(to right, #b3d6a8d8, rgba(201, 201, 201, 0),#b67777);
+}
+footer {
+  background-color: #333; /* Change the background color to your preference */
+  color: #fff; /* Change the text color to your preference */
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  margin:0px;
+}
+

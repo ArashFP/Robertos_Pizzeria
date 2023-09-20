@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boka Bord</title>
+    <link rel="stylesheet" href="pizzastyle.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="indexpizza.html">Hem</a></li>
+          <li><a href="menu.html">Meny</a></li>
+          <li><a href="reservation.html">Boka Bord</a></li>
+          <li><a href="openHours.html">Öppettider</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <h1>🍕Boka Bord hos Robertos🍕</h1>
+    <section class="booking-section">
+      <form>
+        <div class="left-side-reservation">
+          <div class="namn">
+            <label for="name">Name</label><br>
+            <input 
+            name="name" 
+            placeholder="Namn & Efternamn"
+            required>
+          </div>
+          <div>
+            <label for="email">Email</label><br>
+            <input name="email" type="email" placeholder="email@test.com" required>
+          </div>
+          <div>
+            <label for="amount">Antal Personer</label><br>
+            <input name="amount" type="number" placeholder="Hur många blir ni?" required>
+          </div>
+          <div>
+            <label for="date">Datum</label><br>
+            <input name="date" type="date" required>
+          </div>
+          <div>
+            <label for="time">Tid</label><br>
+            <input name="time" type="time" required>
+          </div>
+        </div>
+        <div class="right-side-reservation">
+          <label for="message">Meddelande Till Personal</label><br>
+          <textarea name="message" id="" cols="30" rows="10" required></textarea>
+          <br><br>
+          <div class="buttons">
+            <button type="submit">
+              Avsluta Bokning
+            </button>
+            <br><br>
+            <input type="reset" value="Börja om">
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
